@@ -1,0 +1,2 @@
+seed,backbone,policy,test_mean_ap,test_mean_roc_auc,mean_forgetting,peak_forgetting,replayed_pairs,projected_steps,train_updates
+42,structural_subgraph,dqn,0.8872094263475011,0.8779166666666667,0.031980951421344286,0.21768018200589023,7296,7,126

@@ -1,0 +1,5 @@
+variant,baseline,backbone,policy,metric,n,difference,ci95_low,ci95_high,two_sided_exact_sign_flip_p,improved_seeds
+e4_retention,e3_control,structural_subgraph,dqn,test_mean_ap,5,-0.0005597233538166879,-0.008335737938835368,0.007216291231201993,1.0,2
+e4_retention,e3_control,structural_subgraph,dqn,mean_forgetting,5,-0.022443711945093443,-0.03390974324665482,-0.010977680643532063,0.0625,5
+e4_retention,e3_control,structural_subgraph,dqn,peak_forgetting,5,-0.18003969931591932,-0.27945087697898285,-0.08062852165285576,0.0625,5
+e4_retention,e3_control,structural_subgraph,dqn,oldest_final_drop,5,-0.17631228884296668,-0.2798330722300946,-0.07279150545583872,0.0625,5

@@ -1,0 +1,13 @@
+seed,backbone,policy,after_year,stored_pairs,periods,positive_share,cumulative_replayed_pairs,teacher_count
+42,structural_subgraph,dqn,2003,210,1,0.5,0,210
+42,structural_subgraph,dqn,2004,256,2,0.5,768,256
+42,structural_subgraph,dqn,2005,256,3,0.49609375,1536,256
+42,structural_subgraph,dqn,2006,256,4,0.5,2304,256
+42,structural_subgraph,dqn,2007,256,5,0.4921875,2816,256
+42,structural_subgraph,dqn,2008,256,6,0.4921875,3200,256
+42,structural_subgraph,dqn,2009,256,7,0.4921875,3584,256
+42,structural_subgraph,dqn,2010,256,8,0.5,3968,256
+42,structural_subgraph,dqn,2011,256,9,0.4921875,4352,256
+42,structural_subgraph,dqn,2012,256,10,0.4921875,4448,256
+42,structural_subgraph,dqn,2013,256,11,0.484375,4832,256
+42,structural_subgraph,dqn,2014,256,12,0.484375,4928,256

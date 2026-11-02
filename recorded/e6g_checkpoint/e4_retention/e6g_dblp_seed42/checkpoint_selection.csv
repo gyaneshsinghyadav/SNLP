@@ -1,0 +1,13 @@
+seed,backbone,policy,time,action,checkpoint_mode,selected_epoch,rolled_back,pre_current_ap,selected_current_ap,eligible_epochs,rejected_epochs,selected_mean_incremental_drop,selected_worst_incremental_drop
+42,structural_subgraph,dqn,2003,no_replay,retention,5,False,0.49285202186069854,0.7122281549361206,6,0,0.0,0.0
+42,structural_subgraph,dqn,2004,adaptive_full,retention,5,False,0.83324547437013,0.8444114970925017,6,0,0.0,0.0
+42,structural_subgraph,dqn,2005,adaptive_full,retention,6,False,0.7642033684602945,0.7761655646914996,6,0,0.003997198177056516,0.007994396354113031
+42,structural_subgraph,dqn,2006,adaptive_full,retention,6,False,0.8525572942671904,0.8835718080874615,6,0,0.00472028587792787,0.014160857633783608
+42,structural_subgraph,dqn,2007,adaptive_full,retention,1,False,0.8575397355199044,0.8619893333594147,1,3,0.00478952875195221,0.013918323513937736
+42,structural_subgraph,dqn,2008,uniform_full,retention,0,True,0.8623136620502841,0.8623136620502841,0,3,0.0,0.0
+42,structural_subgraph,dqn,2009,adaptive_full,retention,0,True,0.9008707808557005,0.9008707808557005,0,3,0.0,0.0
+42,structural_subgraph,dqn,2010,adaptive_projected,retention,0,True,0.9003428877462856,0.9003428877462856,0,3,0.0,0.0
+42,structural_subgraph,dqn,2011,adaptive_full,retention,0,True,0.8780084616736294,0.8780084616736294,0,3,0.0,0.0
+42,structural_subgraph,dqn,2012,adaptive_light,retention,0,True,0.8446411236043524,0.8446411236043524,0,3,0.0,0.0
+42,structural_subgraph,dqn,2013,adaptive_full,retention,0,True,0.9026025809419862,0.9026025809419862,0,3,0.0,0.0
+42,structural_subgraph,dqn,2014,adaptive_light,retention,0,True,0.9172573908246082,0.9172573908246082,0,3,0.0,0.0

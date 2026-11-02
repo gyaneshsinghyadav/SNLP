@@ -1,0 +1,71 @@
+{
+  "phase": "E6-G",
+  "dataset_sha256": "3cade711abbe2452f1bf22b1ed938ed46640d58651114676e85aea4198578744",
+  "code_sha256": {
+    "src/adaptive_graph/e6e_continual.py": "c7d8f0ef3b63a414456370f3452d8e24851eba9c9f1a98a0b113f507fdd9b1e9",
+    "src/adaptive_graph/e6f_memory.py": "82da1e037d70a44e512fc1bf93da9fb9a5e627f111043805723a02dbdb611c05",
+    "scripts/e6f_run_suite.py": "a84a65944a507653b7b2e4e7f6885a486dbefce7c0782b1e047988432d02ac0d",
+    "scripts/e6g_run_suite.py": "8a051b165ef49536542a96fa355ce74b62bf657dc301d836b49f0b3dd2143ed1",
+    "src/adaptive_graph/e6_higher_order.py": "c07eda91fd062e6aa382a4c177cefd50d149f732976ca9f3f2246047e983d2c5",
+    "src/adaptive_graph/e6_subgraph.py": "3d31bf0defb472d520fcf84d46580ce193954d838b2c7e0743ae6b211350bc8f",
+    "src/adaptive_graph/e6_fusion.py": "2b296bdb2d58bc8c3fa68e413b2e8e18fff7f6de5cc0964740e9ee4dea833ae2",
+    "src/adaptive_graph/temporal_control.py": "ede0c5987119558faef303e4031670be4d67cfd4013673c2690118d508eade53",
+    "src/adaptive_graph/continual.py": "0dab520aad07dac0b20f78dac12f9f9dd06e3ee05d248e3583f91aafb2e45985",
+    "scripts/e6c_run_suite.py": "d9055a319be11c700c2e1638a37a612ddb2bb72bde3116b645e2e4b76a64ef66",
+    "scripts/e6d_run_suite.py": "98c640d66d1a7c2e0a91b5594e3d8d00269441a3f5cec6b9972e8811716deffa"
+  },
+  "settings": {
+    "base": {
+      "start_time_index": 3,
+      "test_last": 2,
+      "max_positives": 200,
+      "negative_ratio": 1.0,
+      "eval_fraction": 0.3,
+      "controller_val_fraction": 0.25,
+      "decay": 0.7,
+      "neighbors": 12,
+      "heads": 4,
+      "hidden": 32,
+      "fusion_dim": 48,
+      "dropout": 0.1,
+      "epochs": 6,
+      "patience": 3,
+      "batch_size": 128,
+      "max_replay_pairs": 256,
+      "replay_years": 5,
+      "lr_tgat": 0.0007,
+      "lr_decoder": 0.002,
+      "weight_decay": 0.001,
+      "gradient_clip": 2.0,
+      "logistic_c": 1.0,
+      "pairwise_rank_weight": 0.05
+    },
+    "capacity": 256,
+    "reserve_per_period": 4,
+    "full_replay_budget": 64,
+    "light_replay_budget": 16,
+    "replay_weight": 0.5,
+    "ewc_lambda": 0.2,
+    "ewc_decay": 0.9,
+    "reward_forgetting_lambda": 0.75,
+    "reward_peak_lambda": 0.25,
+    "reward_cost_lambda": 0.001,
+    "epsilon": 0.35,
+    "gamma": 0.9,
+    "max_nodes": 32,
+    "first_hop_limit": 20,
+    "probe_pairs": 16,
+    "conflict_guard_threshold": -0.05,
+    "retention_guard_threshold": 0.02,
+    "variant": "e3",
+    "distill_alpha": 0.1,
+    "checkpoint_mode": "retention",
+    "retention_tolerance": 0.02
+  },
+  "policies": [
+    "dqn"
+  ],
+  "backbones": [
+    "structural_subgraph"
+  ]
+}
